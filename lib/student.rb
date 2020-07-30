@@ -1,4 +1,4 @@
 class Student < User
-  def initialize(array)
-    KNOWLEDGE = []
+  def initialize(knowledge)
+    @knowledge = []
 end
